@@ -49,6 +49,15 @@
   color: hsl(234, 85%, 45%);
 }
 
+.points {
+  color: hsl(241, 100%, 89%);
+  /* font-weight: 500; */
+}
+
+.points span {
+  color: hsl(224, 30%, 27%);
+}
+
 .summary .button {
   background: hsl(224, 30%, 27%);
   border-radius: 20px;

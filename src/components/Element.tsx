@@ -13,7 +13,10 @@ export const Element = (item: {
           <img src={icon} alt="icon" />
           <p style={{ margin: "8px 10px" }}> {category}</p>
         </div>
-        <div className="points">{score} / 100</div>
+        <div className="points">
+          {" "}
+          <span>{score}</span> / 100
+        </div>
       </div>
     </div>
   );
