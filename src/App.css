@@ -1,0 +1,36 @@
+@import url("https://fonts.google.com/specimen/Hanken+Grotesk");
+
+#root {
+  margin: 0 auto;
+  color: white;
+  font-size: 18px;
+}
+
+body {
+  display: flex;
+  font-family: "Hanken Grotesk", sans-serif;
+  height: 100vh;
+  margin: 0;
+  place-items: center;
+}
+
+.App {
+  border-radius: 25px;
+  box-shadow: 5px 10px 20px 5px hsl(221, 100%, 96%);
+  display: flex;
+  width: 50vw;
+}
+
+@media (max-width: 890px) {
+  body {
+    display: block;
+    width: 100%;
+  }
+
+  .App {
+    box-shadow: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100vw;
+  }
+}

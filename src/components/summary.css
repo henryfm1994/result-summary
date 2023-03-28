@@ -1,0 +1,63 @@
+.summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  width: 100vw;
+}
+
+.sum-title {
+  color: hsl(224, 30%, 27%);
+  font-weight: 700;
+  padding: 10px;
+}
+
+.categories {
+  display: flex;
+}
+
+.Reaction,
+.Memory,
+.Verbal,
+.Visual {
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.Reaction {
+  background: hsla(0, 100%, 67%, 0.3);
+  color: hsl(0, 100%, 67%);
+}
+
+.Memory {
+  background: hsla(39, 100%, 56%, 0.3);
+  color: hsl(39, 100%, 56%);
+}
+
+.Verbal {
+  background: hsla(166, 100%, 37%, 0.3);
+  color: hsl(166, 100%, 37%);
+}
+
+.Visual {
+  background: hsla(234, 85%, 45%, 0.3);
+  color: hsl(234, 85%, 45%);
+}
+
+.summary .button {
+  background: hsl(224, 30%, 27%);
+  border-radius: 20px;
+  margin: 10px;
+  padding: 15px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.summary .button:hover {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
