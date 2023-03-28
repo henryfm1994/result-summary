@@ -1,1 +1,134 @@
-@import"https://fonts.google.com/specimen/Hanken+Grotesk";#root{margin:0 auto;color:#fff;font-size:18px}body{display:flex;font-family:Hanken Grotesk,sans-serif;height:100vh;margin:0;place-items:center}.App{border-radius:25px;box-shadow:5px 10px 20px 5px #ebf1ff;display:flex;width:50vw}@media (max-width: 890px){body{display:block;width:100%}.App{box-shadow:none;flex-direction:column;justify-content:space-evenly;width:100vw}}.result{background:linear-gradient(hsl(252,100%,67%),hsl(241,81%,54%));border-radius:25px;display:flex;flex-direction:column;justify-content:space-between;padding:10px;place-items:center;width:100vw}.result div{margin:10px}.res-title{color:#c8c7ff}.number{text-align:center;background:linear-gradient(hsla(256,72%,46%,1),hsla(241,72%,46%,0));border-radius:50%;padding:75px}.number p{color:#c8c7ff;margin:0}.number span{color:#fff;font-weight:700;font-size:2rem}.description{font-size:1.5rem;font-weight:600}.comment{color:#c8c7ff;text-align:center;max-width:70%;padding:0 20px}@media (max-width: 890px){.result{border-radius:0 0 25px 25px}.number{padding:50px}}.summary{display:flex;flex-direction:column;justify-content:center;padding:20px;width:100vw}.sum-title{color:#303b5a;font-weight:700;padding:10px}.categories{display:flex}.Reaction,.Memory,.Verbal,.Visual{align-items:center;border-radius:10px;display:flex;justify-content:space-between;margin:10px;padding:5px 10px;width:100%}.Reaction{background:hsla(0,100%,67%,.3);color:#ff5757}.Memory{background:hsla(39,100%,56%,.3);color:#ffb01f}.Verbal{background:hsla(166,100%,37%,.3);color:#00bd91}.Visual{background:hsla(234,85%,45%,.3);color:#1125d4}.summary .button{background:hsl(224,30%,27%);border-radius:20px;margin:10px;padding:15px;cursor:pointer;text-align:center}.summary .button:hover{background:linear-gradient(hsl(252,100%,67%),hsl(241,81%,54%))}
+@import "https://fonts.google.com/specimen/Hanken+Grotesk";
+#root {
+  margin: 0 auto;
+  color: #fff;
+  font-size: 18px;
+}
+body {
+  display: flex;
+  font-family: Hanken Grotesk, sans-serif;
+  height: 100vh;
+  margin: 0;
+  place-items: center;
+}
+.App {
+  border-radius: 25px;
+  box-shadow: 5px 10px 20px 5px #ebf1ff;
+  display: flex;
+  width: 50vw;
+}
+@media (max-width: 890px) {
+  body {
+    display: block;
+    width: 100%;
+  }
+  .App {
+    box-shadow: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100vw;
+  }
+}
+.result {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  place-items: center;
+  width: 100vw;
+}
+.result div {
+  margin: 10px;
+}
+.res-title {
+  color: #c8c7ff;
+}
+.number {
+  text-align: center;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  border-radius: 50%;
+  padding: 75px;
+}
+.number p {
+  color: #c8c7ff;
+  margin: 0;
+}
+.number span {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.description {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.comment {
+  color: #c8c7ff;
+  text-align: center;
+  max-width: 70%;
+  padding: 0 20px;
+}
+@media (max-width: 890px) {
+  .result {
+    border-radius: 0 0 25px 25px;
+  }
+  .number {
+    padding: 50px;
+  }
+}
+.summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  width: 100vw;
+}
+.sum-title {
+  color: #303b5a;
+  font-weight: 700;
+  padding: 10px;
+}
+.categories {
+  display: flex;
+}
+.Reaction,
+.Memory,
+.Verbal,
+.Visual {
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 5px 10px;
+  width: 100%;
+}
+.Reaction {
+  background: hsla(0, 100%, 67%, 0.1);
+  color: #ff5757;
+}
+.Memory {
+  background: hsla(39, 100%, 56%, 0.1);
+  color: #ffb01f;
+}
+.Verbal {
+  background: hsla(166, 100%, 37%, 0.1);
+  color: #00bd91;
+}
+.Visual {
+  background: hsla(234, 85%, 45%, 0.1);
+  color: #1125d4;
+}
+.summary .button {
+  background: hsl(224, 30%, 27%);
+  border-radius: 20px;
+  margin: 10px;
+  padding: 15px;
+  cursor: pointer;
+  text-align: center;
+}
+.summary .button:hover {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}

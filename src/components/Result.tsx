@@ -7,7 +7,7 @@ export const Result = () => {
       <div className="res-title">Your Result</div>
       <div className="number">
         <p>
-          <span>80</span> <br /> of 100
+          <span>76</span> <br /> of 100
         </p>
       </div>
       <div className="description">Great</div>
